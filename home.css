@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: blue;
+    padding-right: 40%;
+    
+}
+
+#navbar, a{
+    margin: 0;
+    color: white;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: cyan;
+}
+
+#content{
+    background: url(img/background.jpg);
+    height: 900px;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    padding: 8px 80px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#allcourses{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+#about{
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+
+.about{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container1{
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.students{
+    background-color: darkslategray;
+    padding: 20px 57px;
+}
+
+.reviews{
+    background-color: darkslategray;
+    padding: 20px 55px;
+}
+
+.courses{
+    background-color: darkslategray;
+    padding: 20px 57px;
+}
+
+.content{
+    background-color: darkslategray;
+    padding: 20px 20px;
+}
+
+#learntech{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+#footer{
+    padding-left: 30%;
+}
+
